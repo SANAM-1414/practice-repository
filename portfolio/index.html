@@ -1,0 +1,858 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Portfolio of Sanam - Software Developer, 2x Hackathon Winner, and Student at Newton School of Technology specializing in Python, Full-Stack Web Development, and AI Prompt Engineering." />
+  <meta name="author" content="Sanam" />
+  <title>Sanam | Software Developer & Full-Stack Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Ambient Glow Effects (Pure CSS) -->
+  <div class="ambient-glow glow-top-left" aria-hidden="true"></div>
+  <div class="ambient-glow glow-top-right" aria-hidden="true"></div>
+  <div class="ambient-glow glow-bottom-center" aria-hidden="true"></div>
+
+  <!-- Navigation Bar -->
+  <header class="navbar-wrapper">
+    <nav class="navbar" aria-label="Main Navigation">
+      <a href="#hero" class="brand-logo" aria-label="Sanam Portfolio Home">
+        <span class="logo-bracket">&lt;</span>
+        <span class="logo-name">Sanam</span>
+        <span class="logo-slash">/</span>
+        <span class="logo-bracket">&gt;</span>
+      </a>
+
+      <!-- Pure CSS Mobile Hamburger Controls -->
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Toggle navigation menu" />
+      <label for="nav-toggle" class="nav-toggle-label" aria-hidden="true">
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+      </label>
+
+      <ul class="nav-menu">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#skills" class="nav-link">Arsenal</a></li>
+        <li><a href="#hackathons" class="nav-link">Hackathons <span class="badge-accent">2x Winner</span></a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#trajectory" class="nav-link">Velocity</a></li>
+        <li><a href="resume.pdf" target="_blank" class="nav-link nav-resume-btn">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14">
+            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+            <polyline points="14 2 14 8 20 8"></polyline>
+            <line x1="16" y1="13" x2="8" y2="13"></line>
+            <line x1="16" y1="17" x2="8" y2="17"></line>
+            <polyline points="10 9 9 9 8 9"></polyline>
+          </svg>
+          Resume
+        </a></li>
+        <li><a href="#contact" class="nav-link nav-btn-cta">Let's Connect</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+      <div class="container hero-container">
+        
+        <div class="hero-pill-badge">
+          <span class="status-indicator"></span>
+          <span>Newton School of Technology &bull; Available for SDE Internships</span>
+        </div>
+
+        <h1 class="hero-title">
+          Architecting ideas into <span class="text-gradient">high-impact products</span> at unmatched velocity cheetah hi kehde.
+        </h1>
+
+        <p class="hero-subtitle">
+          I’m <strong>Sanam</strong>, a builder and software developer at <strong>Newton School of Technology</strong>. In just 90 days of university, I’ve mastered full-stack development, Python systems, and AI prompt engineering—winning <strong>2 out of 4 hackathons</strong> through relentless execution and rapid problem-solving.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">
+            <span>Explore Engineering Work</span>
+            <svg class="btn-icon" viewBox="0 0 20 20" fill="currentColor" width="18" height="18">
+              <path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd" />
+            </svg>
+          </a>
+          <a href="#hackathons" class="btn btn-secondary">
+            <svg class="btn-icon trophy-icon" viewBox="0 0 24 24" fill="currentColor" width="18" height="18">
+              <path d="M19 5h-2V3H7v2H5c-1.1 0-2 .9-2 2v1c0 2.55 1.92 4.63 4.39 4.94.63 1.5 1.98 2.63 3.61 2.96V19H7v2h10v-2h-4v-3.1c1.63-.33 2.98-1.46 3.61-2.96C19.08 12.63 21 10.55 21 8V7c0-1.1-.9-2-2-2zM5 8V7h2v3.82C5.84 10.4 5 9.3 5 8zm14 0c0 1.3-.84 2.4-2 2.82V7h2v1z"/>
+            </svg>
+            <span>View Hackathon Track Record</span>
+          </a>
+          <a href="resume.pdf" target="_blank" class="btn btn-tertiary">
+            <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18">
+              <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+              <polyline points="14 2 14 8 20 8"></polyline>
+              <line x1="12" y1="18" x2="12" y2="12"></line>
+              <polyline points="9 15 12 18 15 15"></polyline>
+            </svg>
+            <span>Resume</span>
+          </a>
+          <a href="#contact" class="btn btn-tertiary">Contact Sanam</a>
+        </div>
+
+        <!-- High-Impact Key Metrics Strip (Big Tech Recruiter Magnet) -->
+        <div class="metrics-grid">
+          <div class="metric-card">
+            <div class="metric-number text-gradient-amber">50%</div>
+            <div class="metric-label">Hackathon Win Rate</div>
+            <div class="metric-sub">2 Wins / 4 Competitions</div>
+          </div>
+          <div class="metric-card">
+            <div class="metric-number text-gradient-blue">90 Days</div>
+            <div class="metric-label">Rapid Trajectory</div>
+            <div class="metric-sub">Foundations to Full-Stack & AI</div>
+          </div>
+          <div class="metric-card">
+            <div class="metric-number text-gradient-cyan">Full-Stack</div>
+            <div class="metric-label">Core Specialization</div>
+            <div class="metric-sub">Python &bull; Web &bull; AI Workflows</div>
+          </div>
+          <div class="metric-card">
+            <div class="metric-number text-gradient-purple">High-Agency</div>
+            <div class="metric-label">Execution Philosophy</div>
+            <div class="metric-sub">Build Under Extreme Pressure</div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- About & Engineering DNA Section -->
+    <section id="about" class="section-padding">
+      <div class="container">
+        
+        <div class="section-header">
+          <span class="section-tag">Engineering DNA</span>
+          <h2 class="section-title">Driven by Curiosity, Proven by Execution</h2>
+          <p class="section-description">
+            I don’t just write code; I construct solutions to friction points. Here is what defines my operating system as an engineer.
+          </p>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-card highlight-card">
+            <div class="about-card-badge">Current Base</div>
+            <h3 class="about-title">Newton School of Technology</h3>
+            <p class="about-text">
+              Pursuing computer science in an industry-immersive ecosystem designed around hands-on software development, continuous algorithmic problem solving, and building production-grade digital products from day one.
+            </p>
+            <div class="about-tags">
+              <span class="tag">Computer Science</span>
+              <span class="tag">Product Thinking</span>
+              <span class="tag">High-Velocity Sprints</span>
+            </div>
+          </div>
+
+          <div class="about-card">
+            <div class="about-icon-box icon-purple">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="24" height="24">
+                <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/>
+              </svg>
+            </div>
+            <h3 class="about-title">Learn by Doing</h3>
+            <p class="about-text">
+              My philosophy rejects passive theory. Every conceptual breakthrough is immediately solidified by architecting functional web tools, Python automation scripts, or hackathon deliverables.
+            </p>
+          </div>
+
+          <div class="about-card">
+            <div class="about-icon-box icon-cyan">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="24" height="24">
+                <circle cx="12" cy="12" r="10"/>
+                <path d="M12 6v6l4 2"/>
+              </svg>
+            </div>
+            <h3 class="about-title">Pressure-Tested Builder</h3>
+            <p class="about-text">
+              Four hackathons in 3 months taught me how to triage requirements, design software architecture on the fly, lead teammates with clarity, and ship bug-free software against countdown clocks.
+            </p>
+          </div>
+
+          <div class="about-card">
+            <div class="about-icon-box icon-emerald">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="24" height="24">
+                <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/>
+              </svg>
+            </div>
+            <h3 class="about-title">AI-Augmented Developer</h3>
+            <p class="about-text">
+              Leveraging state-of-the-art prompt engineering to 10x development velocity, prototype intelligent interfaces, and architect modern web applications that integrate AI natively.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Technical Arsenal / Skills Section -->
+    <section id="skills" class="section-padding bg-surface">
+      <div class="container">
+        
+        <div class="section-header">
+          <span class="section-tag">Technical Arsenal</span>
+          <h2 class="section-title">The Toolset Behind the Velocity</h2>
+          <p class="section-description">
+            A cohesive stack spanning core programming, full-stack web architecture, and cutting-edge prompt engineering.
+          </p>
+        </div>
+
+        <div class="skills-matrix">
+          
+          <!-- Category 1: Python & Backend Logic -->
+          <div class="skill-category-card">
+            <div class="category-header">
+              <div class="category-icon python-theme">
+                <svg viewBox="0 0 24 24" fill="currentColor" width="26" height="26">
+                  <path d="M11.9 1a5.9 5.9 0 00-5.9 5.9v2.2h5.9v.8H3.8A3.8 3.8 0 000 13.7v3.5a3.8 3.8 0 003.8 3.8h2.2v-3.1a3.8 3.8 0 013.8-3.8h5.9v-.8H9.8a2.9 2.9 0 01-2.9-2.9V6.9a2.9 2.9 0 012.9-2.9h6a2.9 2.9 0 012.9 2.9v1.2h2V6.9A5.9 5.9 0 0014.8 1h-2.9zM8.8 3.4a.9.9 0 110 1.8.9.9 0 010-1.8zm11.4 6.9h-2.2v3.1a3.8 3.8 0 01-3.8 3.8H8.3v.8h5.9a2.9 2.9 0 012.9 2.9v3.5a2.9 2.9 0 01-2.9 2.9h-6a2.9 2.9 0 01-2.9-2.9v-1.2h-2v1.2A5.9 5.9 0 009.2 23h2.9a5.9 5.9 0 005.9-5.9v-2.2h-5.9v-.8h8.1a3.8 3.8 0 003.8-3.8v-3.5a3.8 3.8 0 00-3.8-3.8zM15.2 20.6a.9.9 0 110-1.8.9.9 0 010 1.8z"/>
+                </svg>
+              </div>
+              <div>
+                <h3 class="category-title">Python Programming</h3>
+                <span class="category-subtitle">Core Algorithms & Backend Engineering</span>
+              </div>
+            </div>
+            <p class="category-desc">
+              Strong mastery of data structures, algorithmic problem solving, modular software design, script automation, and backend logic.
+            </p>
+            <div class="skill-chips">
+              <span class="chip">Object-Oriented Python</span>
+              <span class="chip">Data Structures & Algorithms</span>
+              <span class="chip">Modular Architecture</span>
+              <span class="chip">Automation Scripting</span>
+              <span class="chip">API Integration</span>
+              <span class="chip">File I/O & Systems</span>
+            </div>
+          </div>
+
+          <!-- Category 2: Full-Stack Web Development -->
+          <div class="skill-category-card">
+            <div class="category-header">
+              <div class="category-icon web-theme">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="26" height="26">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                  <path d="M22 10H2"/>
+                  <path d="M7 15h.01M11 15h2"/>
+                </svg>
+              </div>
+              <div>
+                <h3 class="category-title">Full-Stack Web Dev</h3>
+                <span class="category-subtitle">Frontend & Responsive Architecture</span>
+              </div>
+            </div>
+            <p class="category-desc">
+              Creating fluid, accessible, and high-performance digital experiences with pure modern HTML5, responsive CSS3 grids, flexbox, and backend connectivity.
+            </p>
+            <div class="skill-chips">
+              <span class="chip">Semantic HTML5</span>
+              <span class="chip">Modern CSS3 & Flex/Grid</span>
+              <span class="chip">Responsive Web Design</span>
+              <span class="chip">Full-Stack Architecture</span>
+              <span class="chip">UI/UX Best Practices</span>
+              <span class="chip">Cross-Browser Optimization</span>
+            </div>
+          </div>
+
+          <!-- Category 3: AI & Prompt Engineering -->
+          <div class="skill-category-card">
+            <div class="category-header">
+              <div class="category-icon ai-theme">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="26" height="26">
+                  <path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"/>
+                </svg>
+              </div>
+              <div>
+                <h3 class="category-title">AI Prompt Engineering</h3>
+                <span class="category-subtitle">Intelligent Workflows & Rapid Generation</span>
+              </div>
+            </div>
+            <p class="category-desc">
+              Directing LLMs with structured prompt architectures, chain-of-thought methodologies, system personas, and rapid web prototyping.
+            </p>
+            <div class="skill-chips">
+              <span class="chip">Structured Prompt Design</span>
+              <span class="chip">Few-Shot & CoT Techniques</span>
+              <span class="chip">AI-Powered Rapid Prototyping</span>
+              <span class="chip">LLM Integration Concepts</span>
+              <span class="chip">Workflow Automation</span>
+              <span class="chip">Generative UI Modeling</span>
+            </div>
+          </div>
+
+          <!-- Category 4: Engineering Workflow & Soft Power -->
+          <div class="skill-category-card">
+            <div class="category-header">
+              <div class="category-icon tools-theme">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="26" height="26">
+                  <circle cx="18" cy="18" r="3"/>
+                  <circle cx="6" cy="6" r="3"/>
+                  <path d="M13 6h3a2 2 0 0 1 2 2v7"/>
+                  <line x1="6" y1="9" x2="6" y2="21"/>
+                </svg>
+              </div>
+              <div>
+                <h3 class="category-title">Tools & High Agency</h3>
+                <span class="category-subtitle">Collaboration, Version Control & Grit</span>
+              </div>
+            </div>
+            <p class="category-desc">
+              Proficient in modern Git version control, collaborative sprint workflows, extreme time management, and rapid deployment under strict deadlines.
+            </p>
+            <div class="skill-chips">
+              <span class="chip">Git & Version Control</span>
+              <span class="chip">GitHub Workflows</span>
+              <span class="chip">Hackathon Sprinting</span>
+              <span class="chip">Problem Deconstruction</span>
+              <span class="chip">Cross-Functional Teamwork</span>
+              <span class="chip">Agile Execution</span>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Hackathon Hall of Fame Section (Key Big Tech Differentiator) -->
+    <section id="hackathons" class="section-padding">
+      <div class="container">
+        
+        <div class="section-header">
+          <span class="section-tag section-tag-gold">Competitive Record</span>
+          <h2 class="section-title">Hackathon Excellence: 2 Wins in 4 Battles</h2>
+          <p class="section-description">
+            Hackathons are the truest litmus test for engineering aptitude. Under strict 24 to 48-hour sprints, I brainstorm, engineer, and pitch end-to-end working systems.
+          </p>
+        </div>
+
+        <div class="hackathon-showcase">
+          
+          <!-- Hackathon Win #1 -->
+          <article class="hackathon-card winner-card">
+            <div class="winner-ribbon">
+              <svg viewBox="0 0 24 24" fill="currentColor" width="16" height="16">
+                <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+              </svg>
+              <span>1st Place Winner &bull; Hackathon Champion</span>
+            </div>
+
+            <div class="hackathon-body">
+              <div class="hackathon-meta">
+                <span class="meta-item">🏆 1st Prize</span>
+                <span class="meta-item">⚡ 36-Hour National Sprint</span>
+                <span class="meta-item">👥 Team Lead & Full-Stack Architect</span>
+              </div>
+
+              <h3 class="hackathon-title">AI-Driven Real-Time Crisis Navigator</h3>
+              
+              <p class="hackathon-summary">
+                Engineered a unified emergency response and resource allocation platform that parses SOS requests, synthesizes incident severity via AI prompts, and coordinates dispatch maps for field volunteers in real time.
+              </p>
+
+              <div class="hackathon-highlights">
+                <div class="highlight-point">
+                  <strong>The Challenge:</strong> Chaotic data flow during humanitarian crises leads to critical delays in emergency supplies.
+                </div>
+                <div class="highlight-point">
+                  <strong>My Contribution:</strong> Architected the Python backend processing engine, designed the intuitive triage frontend dashboard, and integrated prompt-engineered classification pipelines.
+                </div>
+                <div class="highlight-point">
+                  <strong>The Result:</strong> Outcompeted 50+ senior and multidisciplinary collegiate teams to claim 1st Place.
+                </div>
+              </div>
+
+              <div class="card-footer-tags">
+                <span class="tag">Python</span>
+                <span class="tag">Full-Stack Web</span>
+                <span class="tag">AI Prompt Architecture</span>
+                <span class="tag">Rapid Prototyping</span>
+              </div>
+
+              <div class="project-actions">
+                <a href="https://github.com/sanam-nst" target="_blank" rel="noopener noreferrer" class="project-link">
+                  <svg viewBox="0 0 24 24" fill="currentColor" width="16" height="16">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/>
+                  </svg>
+                  <span>Repository</span>
+                </a>
+                <a href="#contact" class="project-link project-link-demo">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16">
+                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                    <polyline points="15 3 21 3 21 9"></polyline>
+                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                  </svg>
+                  <span>Request Prototype Demo</span>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- Hackathon Win #2 -->
+          <article class="hackathon-card winner-card">
+            <div class="winner-ribbon">
+              <svg viewBox="0 0 24 24" fill="currentColor" width="16" height="16">
+                <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+              </svg>
+              <span>1st Place Winner &bull; Innovation Trophy</span>
+            </div>
+
+            <div class="hackathon-body">
+              <div class="hackathon-meta">
+                <span class="meta-item">🏆 1st Prize</span>
+                <span class="meta-item">⏱️ 24-Hour Hackathon</span>
+                <span class="meta-item">💡 Core Product Developer</span>
+              </div>
+
+              <h3 class="hackathon-title">Intelligent Adaptive Study Engine</h3>
+              
+              <p class="hackathon-summary">
+                Conceived and built an interactive web software that dynamically decomposes complex engineering syllabi into bite-sized algorithmic roadmaps with auto-generated prompt-assisted quizzes.
+              </p>
+
+              <div class="hackathon-highlights">
+                <div class="highlight-point">
+                  <strong>The Challenge:</strong> Students experience cognitive overload when navigating technical coursework without personalized pacing.
+                </div>
+                <div class="highlight-point">
+                  <strong>My Contribution:</strong> Crafted modular frontend UI components, responsive layout systems, and prompt templates that convert technical documentation into conceptual flash-drills.
+                </div>
+                <div class="highlight-point">
+                  <strong>The Result:</strong> Awarded Best Innovation and Top Overall Project for seamless UI execution and immediate practical utility.
+                </div>
+              </div>
+
+              <div class="card-footer-tags">
+                <span class="tag">Full-Stack HTML/CSS</span>
+                <span class="tag">Python Logic</span>
+                <span class="tag">AI Prompt Engineering</span>
+                <span class="tag">UX Architecture</span>
+              </div>
+
+              <div class="project-actions">
+                <a href="https://github.com/sanam-nst" target="_blank" rel="noopener noreferrer" class="project-link">
+                  <svg viewBox="0 0 24 24" fill="currentColor" width="16" height="16">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/>
+                  </svg>
+                  <span>Repository</span>
+                </a>
+                <a href="#contact" class="project-link project-link-demo">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16">
+                    <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                    <polyline points="15 3 21 3 21 9"></polyline>
+                    <line x1="10" y1="14" x2="21" y2="3"></line>
+                  </svg>
+                  <span>Live Project Demo</span>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <!-- The Runner-up & Finalist Experience -->
+          <article class="hackathon-card finalist-card">
+            <div class="hackathon-body">
+              <div class="hackathon-meta">
+                <span class="meta-item finalist-badge">🎖️ Finalist & Top Contender (2 Competitions)</span>
+                <span class="meta-item">🔄 Relentless Iteration</span>
+              </div>
+
+              <h3 class="hackathon-title">Competitive Finalist: Fintech & Smart Campus Sprints</h3>
+              
+              <p class="hackathon-summary">
+                In my other two hackathons, I went head-to-head with experienced upperclassmen, building a micro-budgeting system and a peer-to-peer campus hardware utility. While achieving finalist status, these competitions forged my resilience, taught me vital failure-recovery lessons, and directly fueled my subsequent victories.
+              </p>
+
+              <div class="card-footer-tags">
+                <span class="tag">High Resilience</span>
+                <span class="tag">Post-Mortem Analysis</span>
+                <span class="tag">Continuous Growth</span>
+              </div>
+            </div>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Featured Projects Section -->
+    <section id="projects" class="section-padding bg-surface">
+      <div class="container">
+        
+        <div class="section-header">
+          <span class="section-tag">Featured Projects</span>
+          <h2 class="section-title">Built with Precision & Purpose</h2>
+          <p class="section-description">
+            A selection of functional products reflecting my ability to turn complex concepts into clean, deployable software.
+          </p>
+        </div>
+
+        <div class="projects-grid">
+          
+          <!-- Project Card 1 -->
+          <div class="project-card">
+            <div class="project-header">
+              <span class="project-type">Full-Stack &bull; AI Integration</span>
+              <div class="project-status">Live Prototype</div>
+            </div>
+            <h3 class="project-title">PromptCraft: AI-Powered Dynamic Web Generator</h3>
+            <p class="project-description">
+              A modern web platform that converts natural language specifications into structured semantic frontend interfaces using sophisticated prompt chains and layout frameworks.
+            </p>
+            <div class="project-features">
+              <div class="feature-item">&bull; Optimized prompt architectures for zero-shot web design</div>
+              <div class="feature-item">&bull; 100% responsive grid layout rendering</div>
+              <div class="feature-item">&bull; Clean Python backend validation scripts</div>
+            </div>
+            <div class="project-tech-stack">
+              <span>Python</span>
+              <span>HTML5</span>
+              <span>CSS3 Grid</span>
+              <span>Prompt Engineering</span>
+            </div>
+            <div class="project-actions">
+              <a href="https://github.com/sanam-nst" target="_blank" rel="noopener noreferrer" class="project-link">
+                <svg viewBox="0 0 24 24" fill="currentColor" width="16" height="16">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/>
+                </svg>
+                <span>Code</span>
+              </a>
+              <a href="#contact" class="project-link project-link-demo">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16">
+                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                  <polyline points="15 3 21 3 21 9"></polyline>
+                  <line x1="10" y1="14" x2="21" y2="3"></line>
+                </svg>
+                <span>Demo</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Project Card 2 -->
+          <div class="project-card">
+            <div class="project-header">
+              <span class="project-type">Python Systems &bull; Automation</span>
+              <div class="project-status">Engineered</div>
+            </div>
+            <h3 class="project-title">AlgoTask: Automated Workflow & Data Scraper</h3>
+            <p class="project-description">
+              A lightweight Python automation suite built to parse, structure, and sanitize unstructured web data into organized JSON and CSV formats for quick analysis.
+            </p>
+            <div class="project-features">
+              <div class="feature-item">&bull; Robust error handling and session management</div>
+              <div class="feature-item">&bull; Modular object-oriented architecture</div>
+              <div class="feature-item">&bull; Automated recurring data pipeline execution</div>
+            </div>
+            <div class="project-tech-stack">
+              <span>Python 3</span>
+              <span>OOP Architecture</span>
+              <span>Data Pipelines</span>
+              <span>Automation</span>
+            </div>
+            <div class="project-actions">
+              <a href="https://github.com/sanam-nst" target="_blank" rel="noopener noreferrer" class="project-link">
+                <svg viewBox="0 0 24 24" fill="currentColor" width="16" height="16">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/>
+                </svg>
+                <span>Code</span>
+              </a>
+              <a href="#contact" class="project-link project-link-demo">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16">
+                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                  <polyline points="15 3 21 3 21 9"></polyline>
+                  <line x1="10" y1="14" x2="21" y2="3"></line>
+                </svg>
+                <span>Docs</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Project Card 3 -->
+          <div class="project-card">
+            <div class="project-header">
+              <span class="project-type">Frontend Architecture &bull; UI/UX</span>
+              <div class="project-status">Production Ready</div>
+            </div>
+            <h3 class="project-title">Nexus: High-Performance Developer Hub</h3>
+            <p class="project-description">
+              A distraction-free web dashboard tailored for computer science students to curate documentation, code snippets, and hackathon preparation checklists.
+            </p>
+            <div class="project-features">
+              <div class="feature-item">&bull; Crafted with zero JavaScript dependencies for ultra-fast load</div>
+              <div class="feature-item">&bull; High-contrast accessible dark mode styling</div>
+              <div class="feature-item">&bull; Interactive pure-CSS tabs and accordion components</div>
+            </div>
+            <div class="project-tech-stack">
+              <span>Semantic HTML5</span>
+              <span>Pure CSS3</span>
+              <span>Responsive UI</span>
+              <span>Design Systems</span>
+            </div>
+            <div class="project-actions">
+              <a href="https://github.com/sanam-nst" target="_blank" rel="noopener noreferrer" class="project-link">
+                <svg viewBox="0 0 24 24" fill="currentColor" width="16" height="16">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/>
+                </svg>
+                <span>Code</span>
+              </a>
+              <a href="#contact" class="project-link project-link-demo">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16">
+                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                  <polyline points="15 3 21 3 21 9"></polyline>
+                  <line x1="10" y1="14" x2="21" y2="3"></line>
+                </svg>
+                <span>Live Site</span>
+              </a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- 90-Day Trajectory / Velocity Section (Why Big Tech Should Hire Me) -->
+    <section id="trajectory" class="section-padding">
+      <div class="container">
+        
+        <div class="section-header">
+          <span class="section-tag">Learning Velocity</span>
+          <h2 class="section-title">The 90-Day Trajectory</h2>
+          <p class="section-description">
+            What separates standard developers from high-impact engineers is the slope of their learning curve.
+          </p>
+        </div>
+
+        <div class="timeline-wrapper">
+          
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <span class="timeline-date">Month 1 &bull; Foundations & First Principles</span>
+              <h3 class="timeline-title">Immersion at Newton School of Technology</h3>
+              <p class="timeline-text">
+                Dove headfirst into Python programming fundamentals, algorithmic mindset, and version control with Git. Built multiple command-line utilities and mastered logic deconstruction.
+              </p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <span class="timeline-date">Month 2 &bull; Full-Stack Expansion & Hackathon Debut</span>
+              <h3 class="timeline-title">Web Architecture & Rapid Prototyping</h3>
+              <p class="timeline-text">
+                Expanded into frontend web development (HTML5/CSS3) and backend API integrations. Entered first 2 collegiate hackathons—reaching the finals in one and clinching a 1st place championship victory in the second!
+              </p>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-dot"></div>
+            <div class="timeline-content">
+              <span class="timeline-date">Month 3 &bull; AI Mastery & 2nd Hackathon Victory</span>
+              <h3 class="timeline-title">AI Prompt Engineering & Second Trophy</h3>
+              <p class="timeline-text">
+                Pioneered AI-augmented website construction using systematic prompt engineering. Won my 2nd Hackathon (2 out of 4 total), cementing a reputation for high-agency execution and cross-functional leadership under tight deadlines.
+              </p>
+            </div>
+          </div>
+
+          <div class="timeline-item timeline-future">
+            <div class="timeline-dot dot-future"></div>
+            <div class="timeline-content">
+              <span class="timeline-date">Next Horizon &bull; Looking Forward</span>
+              <h3 class="timeline-title">Ready for Big Tech Engineering Internships</h3>
+              <p class="timeline-text">
+                Seeking an intensive Software Engineering (SDE) internship at a world-class technology company where high velocity, algorithmic rigor, and rapid ownership will drive measurable product impact.
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Big Tech Value Proposition Card -->
+        <div class="hire-pitch-card">
+          <div class="hire-pitch-content">
+            <h3 class="pitch-title">Why Hire Sanam at First Sight?</h3>
+            <div class="pitch-grid">
+              <div class="pitch-item">
+                <span class="pitch-icon">🚀</span>
+                <div>
+                  <strong>Steep Growth Rate:</strong> 
+                  <span>Give me an unfamiliar codebase or language on Monday, and I will be shipping functional PRs by Friday.</span>
+                </div>
+              </div>
+              <div class="pitch-item">
+                <span class="pitch-icon">🏆</span>
+                <div>
+                  <strong>Proven Grit:</strong> 
+                  <span>Hackathons prove I thrive when requirements change and clocks are ticking—traits every big tech team demands.</span>
+                </div>
+              </div>
+              <div class="pitch-item">
+                <span class="pitch-icon">🤖</span>
+                <div>
+                  <strong>AI-Native Multiplier:</strong> 
+                  <span>I leverage AI prompt engineering not as a crutch, but as a force multiplier to ship 3x faster without sacrificing quality.</span>
+                </div>
+              </div>
+              <div class="pitch-item">
+                <span class="pitch-icon">🤝</span>
+                <div>
+                  <strong>High Agency & Team Alignment:</strong> 
+                  <span>No waiting for instructions; I identify friction, formulate answers, and collaborate transparently.</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Contact & Connect Section -->
+    <section id="contact" class="section-padding bg-surface">
+      <div class="container">
+        
+        <div class="section-header">
+          <span class="section-tag">Let's Connect</span>
+          <h2 class="section-title">Ready to Make an Impact</h2>
+          <p class="section-description">
+            Looking for an ambitious, fast-learning software engineering intern who will hit the ground sprinting? Let’s talk.
+          </p>
+        </div>
+
+        <div class="contact-card-wrapper">
+          <div class="contact-card">
+            
+            <div class="contact-info-panel">
+              <h3 class="panel-title">Let’s build something extraordinary</h3>
+              <p class="panel-desc">
+                Whether you have an internship opening, an innovative hackathon idea, or simply want to talk tech and systems architecture, my inbox is always open.
+              </p>
+
+              <div class="contact-links-list">
+                <a href="mailto:sanam@example.com" class="contact-link-row">
+                  <div class="contact-icon-circle">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20">
+                      <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                      <polyline points="22,6 12,13 2,6"/>
+                    </svg>
+                  </div>
+                  <div>
+                    <span class="link-label">Direct Email</span>
+                    <span class="link-value">sanam@example.com</span>
+                  </div>
+                </a>
+
+                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="contact-link-row">
+                  <div class="contact-icon-circle">
+                    <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20">
+                      <path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"/>
+                    </svg>
+                  </div>
+                  <div>
+                    <span class="link-label">LinkedIn Profile</span>
+                    <span class="link-value">linkedin.com/in/sanam-nst</span>
+                  </div>
+                </a>
+
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="contact-link-row">
+                  <div class="contact-icon-circle">
+                    <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20">
+                      <path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/>
+                    </svg>
+                  </div>
+                  <div>
+                    <span class="link-label">GitHub Repository</span>
+                    <span class="link-value">github.com/sanam-nst</span>
+                  </div>
+                </a>
+
+                <div class="contact-link-row">
+                  <div class="contact-icon-circle">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20">
+                      <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                      <circle cx="12" cy="10" r="3"/>
+                    </svg>
+                  </div>
+                  <div>
+                    <span class="link-label">Location</span>
+                    <span class="link-value">India &bull; Open to Relocation / Remote</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Pure HTML & CSS Interactive Inquiry Form -->
+            <form class="contact-form" action="mailto:sanam@example.com" method="POST" enctype="text/plain">
+              <h4 class="form-title">Send a Quick Message</h4>
+              
+              <div class="form-group">
+                <label for="contact-name">Your Name / Organization</label>
+                <input type="text" id="contact-name" name="name" required placeholder="e.g. Google Recruiting Team" />
+              </div>
+
+              <div class="form-group">
+                <label for="contact-email">Email Address</label>
+                <input type="email" id="contact-email" name="email" required placeholder="recruiter@company.com" />
+              </div>
+
+              <div class="form-group">
+                <label for="contact-subject">Topic / Role</label>
+                <input type="text" id="contact-subject" name="subject" required placeholder="Software Engineer Intern / Opportunity" />
+              </div>
+
+              <div class="form-group">
+                <label for="contact-message">Message</label>
+                <textarea id="contact-message" name="message" rows="4" required placeholder="Hi Sanam, we reviewed your hackathon record and full-stack projects..."></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-full">
+                <span>Dispatch Message via Email</span>
+                <svg class="btn-icon" viewBox="0 0 20 20" fill="currentColor" width="18" height="18">
+                  <path d="M10.894 2.553a1 1 0 00-1.788 0l-7 14a1 1 0 001.169 1.409l5-1.429A1 1 0 009 15.571V11a1 1 0 112 0v4.571a1 1 0 00.725.962l5 1.428a1 1 0 001.17-1.408l-7-14z"/>
+                </svg>
+              </button>
+            </form>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-left">
+        <span class="footer-logo">&lt;Sanam /&gt;</span>
+        <p class="footer-copy">
+          Designed and hand-coded in pure semantic HTML5 &amp; modern CSS3. Built for performance, elegance, and extreme velocity.
+        </p>
+      </div>
+
+      <div class="footer-right">
+        <a href="#hero" class="back-to-top" aria-label="Back to Top">
+          <span>Back to Top</span>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16">
+            <polyline points="18 15 12 9 6 15"/>
+          </svg>
+        </a>
+        <div class="copyright-tag">&copy; 2026 Sanam. Newton School of Technology. All rights reserved.</div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
